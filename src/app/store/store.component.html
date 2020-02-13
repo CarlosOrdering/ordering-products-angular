@@ -1,0 +1,25 @@
+<div>
+  <div class="categories card m-2" *ngFor="let categorie of categories">
+    <div class="title">
+      <h3>{{ categorie.name }}</h3>
+    </div>
+    <!-- ProductList -->
+    <div class="container-fluid">
+      <div
+        class="productContainer row"
+        *ngFor="let product of categorie.products"
+      >
+        <div class="productImage col-2">
+          <img src="{{ product.images }}" alt="" />
+        </div>
+        <div class="productName col-5">
+          {{ product.name }}
+        </div>
+        <div class="productButton col-5">
+          <button class="btn btn-success">Add to cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- End of ProductList -->
+  </div>
+</div>

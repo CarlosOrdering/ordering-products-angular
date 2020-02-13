@@ -1,0 +1,18 @@
+.title {
+  margin: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.productContainer {
+  margin: 5px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.productImage,
+.productName,
+.productButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productImage img {
+  height: 50px;
+}
