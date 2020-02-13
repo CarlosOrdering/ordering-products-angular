@@ -1,0 +1,16 @@
+.Header {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.Header__image img {
+  height: 100%;
+}
+.Header__right_menu {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
